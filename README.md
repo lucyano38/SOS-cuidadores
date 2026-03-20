@@ -1,17 +1,14 @@
-# SOS-cuidadores
-Site para integrar cuidadores a pacientes
-🩺 SOS Cuidadores Brasil
-Bem-vindo ao repositório oficial da plataforma SOS Cuidadores Brasil. Este projeto foi criado para estabelecer uma ponte segura e eficiente entre profissionais de cuidados domiciliários e famílias em todo o Brasil.
-🚀 Sobre o Projeto
-A plataforma permite que cuidadores criem perfis profissionais com as suas especialidades e que famílias publiquem vagas de emprego de forma totalmente gratuita.
-Funcionalidades Implementadas:
-Gestão Master: Controlo total para o administrador (Luciano) gerir utilizadores e conteúdos.
-Mural de Vagas: Atualização em tempo real de oportunidades de trabalho.
-Perfis Especializados: Exibição clara das competências de cada cuidador (ex: Técnico de Enfermagem, Pós-Operatório).
-Segurança Firebase: Regras de acesso configuradas para proteção de dados sensíveis.
-🛠️ Tecnologias Utilizadas
-React.js: Framework principal para a interface.
-Firebase Firestore: Gestão de perfis e autenticação.
-Firebase Realtime Database: Mural de vagas dinâmico.
-Tailwind CSS: Estilização moderna e responsiva para tablets e telemóveis.
-Projeto mantido por Luciano - SOS Cuidadores Brasil
+🩺 SOS Cuidadores Brasil - Versão Ouro V8
+Este é o manual de instruções e documentação oficial da plataforma.
+🚀 O que é este projeto?
+Uma plataforma completa para conectar famílias a cuidadores de idosos e profissionais de saúde.
+📂 Arquivos do Repositório
+App.jsx: É o "coração" do site. Contém toda a programação, as telas, as cores e a ligação com o banco de dados Firebase.
+README.md: É este manual que você está lendo agora.
+🛠️ Como o site funciona?
+Página Inicial: Mostra a lista de cuidadores e famílias.
+Vagas: Mural onde o Luciano (Admin) pode postar e apagar oportunidades.
+Segurança: O site está protegido por regras que impedem acessos não autorizados.
+👨‍💻 Administração Master
+O e-mail lucyano.pci@gmail.com tem poder total para apagar qualquer conteúdo impróprio no site.
+Projeto migrado com sucesso para o GitHub em 2024.
