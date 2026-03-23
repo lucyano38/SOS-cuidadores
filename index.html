@@ -3,11 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SOS Cuidadores Brasil</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SOS Cuidadores Brasil | Site Oficial</title>
+    <!-- Importação da fonte Inter para manter o visual limpo do seu design -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+      /* Reset completo para garantir que o site ocupe 100% da tela sem bordas brancas */
+      body { 
+        margin: 0; 
+        padding: 0; 
+        background-color: #f4f7f6; 
+        font-family: 'Inter', sans-serif; 
+        overflow-x: hidden;
+      }
+      #root { min-height: 100vh; }
+    </style>
   </head>
   <body>
+    <!-- Ponto de montagem do React -->
     <div id="root"></div>
-    <script type="module" src="/App.jsx"></script>
+    
+    <!-- Este caminho garante que o Vite encontre o seu código principal no computador -->
+    <script type="module" src="/src/App.jsx"></script>
   </body>
 </html>
